@@ -77,9 +77,36 @@ Create a platform that:
 ---
 
 ## Getting Started
-1. Clone the repository
+1. Clone the repository : https://github.com/Santhosh121805/code-prep
 2. run with npm run dev
-3. 
+
+## File structure
+
+code-prep/
+├── backend/
+├── public/
+├── src/
+├── .gitignore
+├── README.md
+├── bun.lockb
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+Video demo link:
+https://drive.google.com/file/d/1bahJkaY46-7It-qmMzUEuPTMuCNBTrYP/view?usp=drive_link
+
+ppt link:
+https://docs.google.com/presentation/d/1-0grx0_Un2su7s8zW3g_buK9E9Swv5Fp/edit?usp=drive_link&ouid=107768783783633533220&rtpof=true&sd=true
+
    
 ```bash
 git clone https://github.com/USERNAME/REPO.git
