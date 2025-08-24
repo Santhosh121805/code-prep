@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# CodePrep: All-in-One Career Prep Platform
 
-## Project info
+## Theme
+Build a complete learning platform for students that combines coding practice, AI-powered mock interviews, progress tracking, and peer collaboration. Help universities prepare students for tech careers with one unified system.
 
-**URL**: https://lovable.dev/projects/51f91c26-0a72-483a-98bf-07f4adf06222
+---
 
-## How can I edit this code?
+## Core Challenge: All-in-One Career Prep
+Create a platform that:
+- Provides structured coding problems with live code execution
+- Simulates technical and behavioral interviews using AI
+- Tracks student progress with detailed analytics
+- Enables real-time peer collaboration and pair programming
+- Helps universities monitor and support student readiness
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Target Audience
+**Primary Users:** Students, professors, university career services  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/51f91c26-0a72-483a-98bf-07f4adf06222) and start prompting.
+- **Students:** Practice coding and interview skills in one place  
+- **Professors:** Assign problems and track student development  
+- **Career Services:** Monitor student job readiness  
+- **Universities:** Support students with data-driven insights  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Core Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 1. Smart Coding Environment
+- In-browser code editor with syntax highlighting  
+- Run code safely in isolated Docker containers  
+- Supports Python, Java, JavaScript, C++  
+- Store all solutions for later review  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 2. AI Interview Simulator
+- **Technical Interviews:** Real coding questions with AI guidance  
+- **Behavioral Interviews:** AI analyzes communication skills  
+- **Instant Feedback:** "Explain your logic more clearly"  
+- **Progress Tracking:** Interview readiness score  
 
-Follow these steps:
+### 3. Performance Analytics
+- **Student View:** Personal progress charts, weak areas  
+- **Professor Dashboard:** Class overview, individual student tracking  
+- **University Insights:** Placement readiness across departments  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 4. Peer Collaboration
+- Live Pair Programming: Code together in real-time  
+- Study Groups: Practice interviews with classmates  
+- Code Sharing: Get help from peers on difficult problems  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Sample Flow
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Student Experience:
+1. Logs in → Sees 10 new problems assigned by professor  
+2. Solves "Two Sum" problem → Gets instant feedback and score  
+3. Takes AI mock interview → Receives improvement suggestions  
+4. Joins study group → Collaborates on algorithms with classmates  
 
-**Edit a file directly in GitHub**
+### Professor Experience:
+1. Assigns weekly problem sets to Data Structures class  
+2. Reviews class performance → Notices 60% struggle with recursion  
+3. Schedules extra recursion practice session  
+4. Tracks student interview readiness before placement season  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Tech Requirements
+- **Frontend:** React.js with Monaco Editor (VS Code-style coding)  
+- **Backend:** Node.js with secure Docker containers for code execution  
+- **AI:** OpenAI GPT for interview questions and feedback  
+- **Collaboration:** Socket.io for real-time pair programming  
+- **Database:** PostgreSQL for user data and problem sets  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/51f91c26-0a72-483a-98bf-07f4adf06222) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Getting Started
+1. Clone the repository
+2. run with npm run dev
+3. 
+   
+```bash
+git clone https://github.com/USERNAME/REPO.git
